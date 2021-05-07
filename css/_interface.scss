@@ -1,0 +1,54 @@
+
+
+$color-btn-text: $white;
+$color-btn-default: $orange;
+$color-btn-search: $blue;
+
+.hide {
+  display:none;
+}
+
+%btn {
+    
+    display: inline-block;
+    color: $white;
+    padding: 4px;
+    text-align: center;
+    white-space: norwap;
+    vertical-align: middle;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    font-family: $font-family;
+    font-size: 1em;
+    background: $orange;
+     
+&:hover,
+&:focus {
+  color: $orange;
+}
+    
+  }
+
+.btn-default {
+    @extend %btn;
+    background: $color-btn-default;
+
+}
+
+.btn-search {
+    @extend %btn;
+    background: $color-btn-search;
+    margin: 1.5rem 0 1.5rem 0; 
+}
+ 
+
+.ajax-header {
+  cursor: pointer;
+  
+}
+
+.link-item {
+  cursor: pointer;
+}
+

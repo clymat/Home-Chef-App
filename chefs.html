@@ -1,0 +1,146 @@
+
+
+
+
+<!DOCTYPE HTML>
+<html lang="en">
+<head>
+<link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap" rel="stylesheet">
+<link href="css/style.css" rel="stylesheet">
+<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+  <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css"
+   integrity="sha512-xodZBNTC5n17Xt2atTPuE1HxjVMSvLVW9ocqUKLsCC5CXdbqCmblAshOMAS6/keqq/sMZMZ19scR4PsZChSR7A=="
+   crossorigin=""/>
+  <script src="https://kit.fontawesome.com/098d93b975.js" crossorigin="anonymous"></script>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"
+  integrity="sha512-XQoYMqMTK8LvdxXYG3nZ448hOEQiglfqkJs1NOQV44cWnUrBc8PkAOcXy20w0vlaXaVUearIOBhiXZ5V3ynxwA=="
+  crossorigin=""></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<title>Home Chef</title>
+<meta http-equiv="content-type" content="text/html;charset=utf-8" >
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name=description content= "An application to book local professional chefs to make dinner at your home.">
+<meta name=keywords content= "Private chef, hire chef, chefs, private dining">
+<meta name="theme-color" content="#f59a18">
+<link rel="icon" href="images/hclogo.svg">
+<link rel=”mask-icon” href=”images/mask-icon.svg” color=”#f59a18">
+<link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+<link rel="manifest" href="manifest.webmanifest">
+    </head> 
+<body>
+  <header class="header" id="myHeader">
+            <nav>
+                <svg width="120" height="100">
+                    viewBox="0 0 124 100" style="enable-background:new 0 0 124 100;" xml:space="preserve">
+                 <style type="text/css">
+                   .st0{fill:#F59A18;stroke:#000000;stroke-width:5.694041e-02;stroke-miterlimit:10;}
+                   .st1{fill:#010202;}
+                   .st2{font-family:'akaDora';}
+                   .st3{font-size:28.3652px;}
+                   .st4{fill:#F59A18;}
+                 </style>
+                 <polygon points="114.4,58 7.7,57.9 20.8,62.7 100.8,62.8 "/>
+                 <g id="Lid2">
+                   <path d="M24.6,58.8c-1.4,0.9-1-6.1-1-6.9C24,40.3,27.2,29.5,35,21.2c4-4.2,8.9-7,13.5-10.4c-0.6-0.5-1.2-0.9-1.9-1
+                     c-0.8-0.1-1.5,0.4-2.2,0.9c-2.2,1.8-4.7,3.4-7,5.1c0.5-0.4,0.5-4.8,0.7-5.6c0.4-1.8,1-3.7,2.3-4.9c1.6-1.6,3.9-1.7,6-1.3
+                     C48,4.3,51,5.2,52.2,6.6c-0.5,0.4-1.5,1-2.1,1.1c0.7-0.1,1.3,0.7,1.9,1c0.9,0.4,1.8,0,2.7-0.4c4.6-1.9,9.7-2,14.5-1.7
+                     c2.4,0.1,4.9,0.4,7.3,0.8c1.3,0.2,2.5,0.5,3.7,0.8c1,0.2,2.5,1,3.4,0.9c-5,0.4-10.2-0.6-15.3-0.3C57,9.4,46,13.7,37.9,22.6
+                     c-3.4,3.8-6,8.4-7.6,13.4c-1.6,4.6-3.1,10.7-2.4,15.6c1.6-0.2,5-2.2,5.8-3.9c0.2-0.4,0.2-0.9,0.2-1.3c0.8-10.6,4.4-20.3,11.6-27.9
+                     c-2,3.9-3.9,8.2-5.1,12.5c-0.7,2.7-1.3,5.4-1.4,8.2c0,1.1-0.1,3,0.4,4c0.7,1.4,1.8,0.3,2.9-0.4c13-8.2,25.9-16.5,38.9-24.7
+                     c2.9-1.8,5.9-3.7,8.8-5.6l4.1,2.4c-3.6,2.3-7.2,4.6-10.9,6.9c-8,5-16,10.1-23.9,15.1C47.7,44.1,36.2,51.4,24.6,58.8"/>
+                 </g>
+                 <g id="House2">
+                   <path class="st0" d="M80.1,55.5c-1.9,0-3.8,0-5.8,0c-0.4,0-0.8,0-1.2,0c0-0.5,0-1,0-1.5c0-4.2,0-8.4,0-12.7c3.5-3.2,7-6.4,10.5-9.6
+                     l10.5,9.4l0,14.4l-7.2,0l0-6.6c-2.3,0-4.5,0-6.8,0C80.1,51.1,80.1,53.3,80.1,55.5z"/>
+                 </g>
+                 <polygon class="st1" points="97,42 98.7,40.1 83.6,26.5 68.5,40.1 70,41.9 83.6,29.9 "/>
+                 <polygon points="74,34.2 74,28.6 77.7,28.6 77.7,30.8 "/>
+                 <g id="Layer_14">
+                   <text transform="matrix(0.9284 4.737358e-04 -5.097506e-04 1 12.6553 85.7895)" class="st1 st2 st3">H</text>
+                   <text transform="matrix(0.9284 4.737358e-04 -5.097506e-04 1 35.8526 85.8014)" class="st1 st2 st3">o</text>
+                   <text transform="matrix(0.9284 4.737358e-04 -5.097506e-04 1 44.919 85.806)" class="st1 st2 st3">m</text>
+                   <text transform="matrix(0.9284 4.737358e-04 -5.097506e-04 1 59.8487 85.8136)" class="st1 st2 st3">e</text>
+                 </g>
+                 <text transform="matrix(0.9284 4.737358e-04 -5.097506e-04 1 67.2738 87.0401)" class="st4 st2 st3">C</text>
+                 <text transform="matrix(0.9284 4.737358e-04 -5.097506e-04 1 88.7485 87.051)" class="st4 st2 st3">h</text>
+                 <text transform="matrix(0.9284 4.737358e-04 -5.097506e-04 1 98.3031 87.0559)" class="st4 st2 st3">e</text>
+                 <text transform="matrix(0.9284 4.737358e-04 -5.097506e-04 1 106.725 87.0602)" class="st4 st2 st3">f</text>
+                 </svg>
+                 
+                 <input id="search-box" class ="top-search" type="text" required placeholder="Chef By Location..">
+      <button type="submit" id = "go-btn"class ="animate__animated animate__bounce">Go</button>
+
+
+            <ul class="menu desktop">
+                <li><a href="/index.html" class="menu__item">Home</a></li>
+                <li><a href="/menus.html" class="menu__item">Menus</a></li>
+                <li><a href="/chefs.html" class="menu__item current-page">Chefs</a></li>
+                
+                
+            </ul>
+            <a class="menu__icon mobile"><span></span></a>
+            <ul class="menu mobile">
+                <li><a href="/index.html" class="menu__item">Home</a></li>
+                <li><a href="/menus.html" class="menu__item">Menus</a></li>
+                <li><a href="/chefs.html" class="menu__item">Chefs</a></li>
+
+    
+            </ul>
+        </nav>
+    </header>
+
+      <div class="search-sect">   
+      </div>
+
+      <div class="intro">
+        <h1>All Chefs</h1>
+        <p><strong>View Chefs,</strong>  by clicking choose your chef button below. 
+          
+        </p>
+        
+        <ul id="chef-list"></ul>
+        <h2>Chef Map Location</h2>
+        <div id ="chef-map"></div>
+  
+      </div>
+  
+
+      <div id="ajax" class="ajax">
+        <button id="ajax-header" class = "">Choose your Chef</button>
+      </div>
+
+      <div id="list">
+        <ul id="chefs-list"></ul>
+    </div>
+    
+    <div id="details">
+        <h1 id="title"></h1>
+        <ul> 
+             <p id="chefMarker"></p>
+            <p id="title"></p>
+          <img id="chefImg" src="">
+            <p id="location"></p>
+            <p id="level"></p>
+            <p id="cuisine"></p>
+            <p id="description"></p>
+        </ul>
+        <button id="backBtn" class="btn-search"> back </button>
+    </div>
+    </div>
+    <br>
+    <br>
+
+      <footer>
+        <p class="footerText"><strong>Web Design by  <a href="https://selene.hud.ac.uk/u1860854/Webbuilds/"> Clayton Matangira </a></strong></p>
+          <p class="footerText">Copyright 2021</p>
+      </footer>
+  <script src="js/index.js"></script>
+  <script src="js/chefs.js" type = "module"></script>
+  <script src="js/chefSearchApp.js" type = "module"></script>
+  
+  </html> 

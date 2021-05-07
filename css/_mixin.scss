@@ -1,0 +1,17 @@
+@mixin break($length) {
+@media (min-width: $length) {
+    @content
+    
+}  
+}
+
+@mixin default-style {
+    border-bottom: $gray 1px solid;
+    margin-bottom: 2em;
+
+}
+
+@mixin column-media {
+    width: 33%;
+    border-bottom: none;
+}

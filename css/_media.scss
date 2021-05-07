@@ -1,0 +1,101 @@
+
+/* Desktop Menu Media Query */ 
+.nav {
+    @include break(750px){
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
+  
+.links {
+    @include break(750px) {
+        flex-direction: row;
+        max-width: 50%;
+        margin-right: 3em;
+    }
+}
+
+
+/* Layout Media Query */ 
+
+
+.columns {
+    @include break (800px) {
+        display:  flex;
+        justify-content: space-between;
+        margin: 0 auto;
+
+        .img_holder {
+            max-width: 100%;
+          }
+        
+          .michelin{
+            @include column-media;
+           
+            
+          }
+          .family {
+            @include column-media;
+           
+          }
+          .graduate {
+            @include column-media;
+          
+          }
+          
+
+      } 
+    }
+
+.col_img {
+    @include break (850px){
+        justify-content: space-between;
+        margin: 0 auto;
+        width: 90%
+    }
+}
+
+
+h2 {
+    @include break (600px) {
+        text-align: center;
+    }
+
+}
+
+
+/* Hamburger Menu Media Query */ 
+
+$viewport_size: (
+    s: 320px,
+    m: 768px,
+    l: 1200px
+);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (min-width: map-get($viewport_size, l)) {
+    nav {
+      padding: 2em;
+      background: $offwhite;
+      
+      
+      
+      
+    }
+  
+    .mobile {
+      display: none;
+    }
+  
+    .desktop {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-between;
+      
+    }
+  }

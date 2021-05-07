@@ -1,0 +1,66 @@
+[
+	{
+        "id":1,
+        "image": "images/samson.jpg",
+		"name":"Samson Smaja",
+        "location":"Manchester",
+        "position": {"latitude": 53.48370, "longitude": -2.23846},
+        "cuisine":"Italian, African, English, French, Spanish, Japanese, Chinese, Caribbean, Thai.",
+		"level":"Michelin Chef",
+        "description": "Samson is the product of Leiths School of Food and Wine. His passion began in the Scottish town of Auchterader at the Michelin star restaurant in Gleaneagles Hotel. Chef has brought his extensive food and fine dining knowledge, passion and attention to detail and hard work to build his name into a brand."
+
+
+	},
+	{
+        "id":2,
+        "image": "images/jack.jpg",
+		"name":"Jack Shlom",
+        "location":"Leeds",
+        "position": {"latitude": 53.79330, "longitude": -1.55988},
+        "cuisine":"Italian, English, French, Spanish, Japanese, Chinese, Thai.",
+		"level":"Michelin Chef",
+		"description":"Chef Jack has a wealth of experience and has worked in two Michelin restaurants as Executive Head Chef. He has experience working as a private chef on private yatchs and cruise ships in Europe and America. Chef Jack is passionate about his art as he calls it."
+	},
+	{
+        "id":3,
+        "image": "images/miranda.jpg",
+		"name":"Miranda Mabiko",
+        "location":"London",
+        "position": {"latitude": 51.51376, "longitude": -0.14630},
+        "cuisine":"Italian, English, French, Spanish, Indian, African, Caribbean.",
+		"level":"Family Cook",
+		"description":"Chef Miranda has spent 15 years in 1-3 Michelin star kitchens in France and Malta. She has recently taken on a position of teaching chef with an international company and would love to cook in private households. Her style is mostly French and traditional."
+	},
+	{
+		"id":4,
+        "image": "images/mary.jpg",
+        "name":"Mary Gurnsey",
+        "location":"Birmingham",
+        "position": {"latitude": 52.47522, "longitude": -1.90616},
+        "cuisine":"Italian, English, French, Spanish, Mediterranean, Turkish, Indian, Thai.",
+		"level":"Family Cook",
+		"description":"Mary is a Leiths School of Food and Wine graduate. She likes cooking seasoned food and specialises in Middle Eastern and Mediterranean flavours. Mary is trained in Classic French and British cooking. She is comfortable cooking dietary requirements. She has a brilliant personality and a damn good cook who is most comfortable cooking in any home!"
+    },
+
+    {
+        "id":5,
+        "image": "images/bryan.jpg",
+		"name":"Bryan Flint",
+        "location":"London",
+        "position": {"latitude": 51.51376, "longitude": -0.14630},
+        "cuisine":"Italian, English, French, Spanish, Japanese, chinese.",
+		"level":"Family Cook",
+		"description":"Bryan is a product of Leiths School of food and Wine of London, graduated in 2016. He attended Leiths after self teaching himself various cooking styles which he perfected in his formal year of study. Bryan has been freelancing cooking at family parties and large parties abroad. He has a profssional personable manner."
+    },
+
+    {
+        "id":6,
+        "image": "images/nathan.jpg",
+		"name":"Nathan Cross",
+        "location":"Glasgow",
+        "position": {"latitude": 55.85928, "longitude": -4.24143},
+        "cuisine":"Italian, English, French, Spanish.",
+		"level":"Graduate Cook",
+		"description":"Nathan is a product of Leiths School of food and Wine of London, He has been passionate about food from a young age and has recently graduated from  the well-respected Tante Marie Culinary Academy where she studied the Intensive Cordon Bleu Diploma.graduated in 2016. He is very eager to develop his culinary skills and willing to learn in various catering settings."
+    }
+]

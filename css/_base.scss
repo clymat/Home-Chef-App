@@ -1,0 +1,290 @@
+html, body {
+    max-width: 100%;
+    overflow-x: hidden;
+    margin: 0;
+    font-family: 'lato',sans serif;
+    font-size: 1.125rem;
+    font-weight: $font-weight;
+    line-height: 1.6;
+    background-image: url(/images/clean_textile.png);
+
+}
+
+
+
+.header {
+    width: 100%;
+    /* max-width: 1500px; */
+    margin: 0 auto;
+    text-align: center;
+
+  }
+
+.addPadding {
+    padding: 1em;
+   }
+
+
+.sticky {
+    position: fixed;
+    z-index:2;
+    top: 0;
+    width: 100%
+  }
+
+.sticky + .addPadding {
+    padding-top: 44em;
+  }
+
+
+
+footer {
+    position: fixed;
+    background: $footer-background;
+    height:10%;
+    width: 100%;
+    padding: 0.75em 2em;
+    bottom: 0;
+    clear: both;
+    text-align: center;
+    overflow: auto;
+    text-align: center;
+    color: $footer-color;
+    z-index: 2;
+
+    .footerText {
+      font-size: 0.50rem;
+    }
+  }
+
+  .intro {
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-bottom: $gray 1px solid;
+    padding-bottom: 2em;
+    margin-bottom: 2em;
+    padding: 0.5em 0.5em;
+   }
+
+  .charts {
+    @extend .intro;
+    border-bottom: none;
+    margin-bottom: 11%
+  }
+
+#div-spacer {
+  margin-bottom: 11%;
+}
+
+
+.main_img {
+    max-width: 100%;
+    display: block;
+    object-fit: cover;
+    margin: 0 auto;
+  }
+
+
+
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+
+
+.col_img {
+    width: 100%;
+    min-height: 250px;
+    object-fit: cover;
+    object-position: center;
+    border: 3px solid $white;
+
+}
+
+.read-more {
+    font-size: .875rem;
+    text-decoration: none;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: $orange;
+}
+
+#chef-list {
+   padding: 1em;
+}
+
+.highlight {
+  font-weight: 700;
+}
+
+
+
+  /* TYPOGRAPHY */
+
+  h1, h2, h3{
+    color: $orange;
+    font-weight: $font-weight;
+    text-align: center;
+
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin: 1em;
+
+  }
+
+  h2 {
+    font-size: 1.3rem;
+    margin: 1em;
+  }
+
+  h3 {
+    font-size: 1 rem;
+  }
+
+  a {
+    color: $highlight;
+  }
+
+  .fine-print {
+    font-size: 0.625rem;
+    letter-spacing: 1px;
+}
+
+.chart {
+  margin-top: 2em;
+  // color: $blue;
+}
+
+  /*LAYOUT*/
+.columns {
+  text-align: center;
+  position:relative;
+  z-index:1;
+
+  .michelin {
+    @include default-style;
+  }
+
+  .family {
+    @include default-style;
+  }
+
+  .graduate {
+    @include default-style;
+
+}
+}
+
+ .field {
+ border-bottom: 1em;
+ }
+
+
+.ajax {
+  // margin: 2em;
+  display: flex;
+  justify-content: center;
+  padding: 0.5em 0.5em;
+
+
+}
+
+#list {
+  padding: 0.8em 0.8em;
+  margin-bottom: 2em;
+
+}
+
+#details {
+  @extend #list
+}
+
+.img_holder {
+  max-width: 100%;
+}
+
+
+.holder {
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* border: 2px solid magenta; */
+}
+
+.container form {
+  margin: 0 auto;
+}
+
+/*FORM*/
+
+.search_form {
+  padding: 2em;
+
+}
+
+.email-register {
+  width: 80%;
+  max-width: 300px;
+}
+
+.form-input {
+  width: 100%;
+  border-radius: 5px;
+  font-family: inherit;
+  text-align: inherit;
+  margin-bottom: 1em;
+  padding: 1.5em;
+  border: 1px solid $orange;
+
+}
+
+// canvas {
+//    border:5px solid black;
+// }
+
+
+#myChart {
+  // border:5px solid black;
+  display: none;
+  max-width: 100%;
+  object-fit: cover;
+  height: auto;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+#map {
+  height: 400px;
+  max-width: 100%;
+  display: block;
+  object-fit: cover;
+  margin: 0 auto;
+  z-index: 2;
+
+}
+
+#chef-map {
+  @extend #map;
+  margin-top: 2em;
+  margin-bottom: 1em;
+  height: 300px;
+  width: 100%;
+  // // display: none;
+
+}
+
+.select {
+  // @extend .form-input
+  padding: 1em;
+  width: 35%;
+  border-radius: 5px;
+  border: 1px solid $orange;
+}

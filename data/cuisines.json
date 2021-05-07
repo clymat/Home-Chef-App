@@ -1,0 +1,61 @@
+
+[
+    {
+        "id":1,
+		"name":"Italian",
+		"country":"Italy",
+		"courses":["Antipasto", "Primo", "Secondo"],
+		"percentage":38
+    },
+
+    {
+        "id":2,
+		"name":"Caribbean",
+		"country":"West Indies",
+		"courses":["Appetizer", "eentrée", "dessert"],
+		"percentage":38
+    },
+
+    {
+        "id":3,
+		"name":"British",
+		"country":"United Kingdom",
+		"courses":["Appetizer", "eentrée", "dessert", "Coffee/Tea"],
+		"percentage":16
+    },
+
+    {
+        "id":4,
+		"name":"Thai",
+		"country":"Thailand",
+		"courses":["Appetizer", "eentrée", "dessert"],
+		"percentage":36
+    },
+
+    {
+        "id":5,
+		"name":"African",
+		"country":"Nigerian",
+		"courses":[ "eentrée", "dessert"],
+		"percentage":38
+    },
+
+    {
+        "id":6,
+		"name":"Turkish",
+		"country":"Turkey",
+		"courses":["Appetizer", "eentrée", "dessert"],
+        "percentage":22
+    },
+
+    {
+        "id":7,
+		"name":"Chinese",
+		"country":"China",
+		"courses":["Appetizer", "eentrée", "dessert"],
+		"percentage":20
+    }
+
+
+
+]

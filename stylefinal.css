@@ -1,0 +1,168 @@
+html, body {
+max-width: 100%;
+overflow-x: hidden;
+margin: 0;
+font-family: 'lato',sans serif;
+font-size: 1.125rem;
+font-weight: 400;
+line-height: 1.6;
+
+
+
+
+}
+
+header {
+  width: 100%;
+  /* max-width: 1500px; */
+  margin: 0 auto;
+  text-align: center;
+}
+
+footer {
+  background: #143774;
+  padding: 3em 0;
+  text-align: center;
+  color: #ffffff;
+
+
+}
+
+.main_img {
+max-width: 100%;
+display: block;
+object-fit: cover;
+margin: 0 auto;
+
+}
+/* TYPOGRAPHY */
+
+h1, h2, h3{
+  color: #ef5839;
+  font-weight: 400;
+
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+
+}
+
+p {
+
+}
+
+a {
+  color: #ef5839;
+}
+/* LAYOUT */
+
+.img_holder {
+  max-width: 100%;
+}
+
+
+.holder {
+  box-sizing: border-box;
+  width: 80%;
+  max-width: 1000px;
+  margin: 0 auto;
+  /* border: 2px solid magenta; */
+}
+
+@media (min-width: 850px) {
+  .columns {
+    display:  flex;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+
+  .img_holder {
+    max-width: 100%;
+  }
+
+  .industry {
+    width: 20%;
+    /* border: 2px solid magenta; */
+  }
+  .sport {
+    width: 20%;
+    /* border: 2px solid magenta; */
+  }
+  .famous_people {
+    width: 45%;
+    /* border: 2px solid magenta; */
+  }
+  h2 {
+    text-align: center;
+  }
+}
+
+/* Navigation */
+
+.nav {
+        background: #F8F8F8;
+        padding: 2em;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+}
+
+.link {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'ubuntu', sans serif;
+    font-weight: 800;
+    color: #717171;
+    font-size: 1rem;
+    margin: 0.50em;
+
+}
+
+.links {
+
+ display: flex;
+ flex-direction: column;
+ flex-wrap: wrap;
+ width: 60%;
+ margin: 1em;
+ justify-content: space-between;
+ align-items: center;
+
+}
+
+.link:hover,
+.link:focus {
+    color: #ef5839;
+}
+
+
+.current-page {
+    text-decoration: underline;
+}
+
+.current-page:hover {
+    color: #707070;
+}
+
+/* Media Query */
+
+
+@media (min-width: 850px) {
+    .nav {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .links {
+        flex-direction: row;
+        max-width: 50%;
+        margin-right: 3em;
+    }
+
+}
